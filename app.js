@@ -14,7 +14,7 @@ var os = require( 'os' );
 
 var networkInterfaces = os.networkInterfaces( );
 
-var external = exec('curl https://ipinfo.ip', (err, stdout, stderr ) => console$
+var external = exec('curl https://ipinfo.ip', (err, stdout, stderr ) => console.log(stdout));
 
 
 
